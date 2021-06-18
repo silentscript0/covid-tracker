@@ -1,0 +1,21 @@
+body {
+  background-image: linear-gradient(to top, #ab95e5 0%, #f0cedb 100%);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.image {
+  width: 150px;
+  margin-top: 50px;
+}
+@media (max-width: 768px) {
+  .container {
+    margin: 0 10%;
+  }
+  .image {
+    width: 70%;
+  }
+}
